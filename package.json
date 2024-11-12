@@ -9,7 +9,8 @@
   },
   "main": "app.js",
   "scripts": {
-     "start": "node ./app.js"
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/JazmariGonzalez/dwpcI-awesome-app/issues"
   },
-  "homepage": "https://github.com/JazmariGonzalez/dwpcI-awesome-app#readme"
+  "homepage": "https://github.com/JazmariGonzalez/dwpcI-awesome-app#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
