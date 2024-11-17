@@ -1,5 +1,3 @@
-// Importando el modulo http
-import http from 'http';
 // Importando Express
 import express from 'express';
 
